@@ -1,0 +1,16 @@
+.contain {        
+    width: 100%;
+    height: auto;
+    display: flex;    
+    flex-wrap: wrap;
+    padding: 5% 0px;
+}
+
+.form-outline {    
+    width: 100%;
+}
+
+#datatable {
+    width: 100%;
+    min-width: 400px;
+}

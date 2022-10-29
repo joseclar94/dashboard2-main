@@ -1,0 +1,28 @@
+<div class="contain">
+  <div class="form-outline">
+    <input (keyup)="onKey($event)" type="search" class="form-control" id="datatable-search-input"
+      placeholder="Cédula...">
+  </div>
+  <br>
+  <br>
+  <div id="datatable">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Cedula</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Apellido</th>
+          <th scope="col">Edad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let estudiante of EstudiantesFilter">
+          <th scope="row">{{estudiante.id}}</th>
+          <td>{{estudiante.nombre}}</td>
+          <td>{{estudiante.apellido}}</td>
+          <td>{{estudiante.edad}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

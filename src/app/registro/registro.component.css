@@ -1,0 +1,13 @@
+.contain {
+    height: auto;
+    overflow: auto;
+    padding: 50px;
+}
+
+.form-group {
+    padding: 10px 0px;
+}
+
+.form-check {
+    margin: 5px;
+}
